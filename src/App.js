@@ -19,7 +19,7 @@ if (weight === 0 || height === 0) {
 }
 
 else{
-  let bmi = (weight/(height*weight)*703)
+  let bmi = (weight/(height*height)*703)
   setBmi (bmi .toFixed(1));
 
 
