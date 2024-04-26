@@ -51,7 +51,7 @@ let reload =() => {
       <form onSubmit={calcBmi}>
         <div>
           <label>
-            Weight(ibs)
+            Weight(lbs)
           </label>
           <input type="text" placeholder="Enter weight value" value={weight} onChange={(e) => setWeight(e.target.value)} />
         </div>
